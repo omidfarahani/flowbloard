@@ -123,4 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'refresh_token_lifetime'    => env('REFRESH_TOKEN_LIFETIME', 3600),
+
 ];
